@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": ["es2020"],
+    "outDir": "./src",
+    "allowJs": true,
+    "target": "ES2015",
+    "module": "commonjs",
+    "types": [
+      "node",
+      "jest"
+    ],
+    "watch": true,
+    "esModuleInterop": true,
+  },
+  "include": ["./ts_src/**/*"]
+}
